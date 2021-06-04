@@ -1,0 +1,158 @@
+body{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(233, 243, 250);
+    text-transform: capitalize;
+}
+.one{
+  padding: 15px;
+  width: 19%;
+  background-color:rgb(158, 156, 156);
+  height: 100%;
+  overflow: auto;
+  border-radius: 10px;
+  position: fixed;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+  .two{
+  margin-left: 22%;
+  padding:15px;
+  width: 80%;
+  background-color:  rgb(233, 243, 250); 
+  height: 100%;
+  float: right;
+  
+}
+.two h1{
+    color:rgb(76, 154, 179);
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.two h3{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(76, 154, 179);
+
+}
+.two .mmm{
+    
+    height: 10px;
+    color:rgb(16, 68, 85);
+
+}
+.two .iclub{
+    color: black;
+}
+ul{
+    margin: 10px;
+}
+.me{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; 
+    margin:auto;
+}
+.o{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin:10px;
+
+}
+h4,h5{
+    display: inline-block;
+    font-weight: bold;
+
+}
+.two p, .two li{
+    font-size: 20px
+}
+.half{
+    float:laft;
+    width:50%;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+.na{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  background:gray;
+    margin:1px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    height: 30px;
+  
+}
+
+li .na:hover {
+    background-color: #555;
+    color:black;
+  }
+.half{
+      float: left;
+      width:50%;
+  }
+  .b{
+      width: 20px;
+      height:20px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+hr{
+    margin: 0px;
+}
+.mmm{
+    margin: 0px;
+    height: 5px;
+    background-color: rgb(42, 147, 165);
+}
+
+@media screen  and (max-width:800px){
+   body{
+    background-color: rgb(172, 111, 111);
+   }
+.me{
+    width:100px;
+    height: 100px;
+}
+.two ul{
+display: block;
+}
+.half{
+    width: 100%;
+}
+.two{
+background-color: rgb(172, 111, 111);
+}
+
+.nav,.na{
+    width:7%;
+}
+
+}
